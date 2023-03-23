@@ -1,0 +1,20 @@
+h1{
+    color: red;
+    font-size: 24px;
+    text-align: center;
+}
+h5{
+    color: forestgreen;
+    font-size: 15px;
+    font-weight:bold 
+}
+body{
+    background-color: lightgrey;
+}
+p, ol, ul {
+    font-weight:bold ;
+
+}
+table{
+    border-color: red;
+}
