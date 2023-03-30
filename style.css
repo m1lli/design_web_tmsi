@@ -6,15 +6,33 @@ h1{
 h5{
     color: forestgreen;
     font-size: 15px;
-    font-weight:bold 
+    font-weight:bold;
+    padding-left: 15px;
 }
 body{
-    background-color: lightgrey;
+    background-color: lightgrey;   
+    border-style:dotted;
+    border-width: 4px;
+    border-color:darkgreen;
 }
 p, ol, ul {
     font-weight:bold ;
+    padding-left: 25px;
 
 }
 table{
-    border-color: red;
+    border-color: rgba(119, 29, 29, 0.884);
 }
+img{
+     border-style:solid;
+     border-color: rgb(51, 50, 50);
+ }
+ a{
+     padding-left: 20px;
+ }
+ h4{
+     font-size: 20px;
+     color:forestgreen;
+     padding-left:15px ;
+ }
+ 
