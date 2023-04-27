@@ -1,7 +1,14 @@
 h1{
     color: red;
-    font-size: 24px;
+    font-size: 30px;
     text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-decoration:underline;
+}
+H4, p, h5, ul, div, ol{
+    font-family:'Times New Roman';
+
 }
 h5{
     color: forestgreen;
@@ -20,9 +27,7 @@ p, ol, ul {
     padding-left: 25px;
 
 }
-table{
-    border-color: rgba(119, 29, 29, 0.884);
-}
+
 img{
      border-style:solid;
      border-color: rgb(51, 50, 50);
@@ -33,6 +38,37 @@ img{
  h4{
      font-size: 20px;
      color:forestgreen;
-     padding-left:15px ;
+     padding-left:20px ;
  }
+ main {display: flex;}
+main > * {border: 1px solid;}
+table {border-collapse: collapse; font-family: 'Times New Roman', Times, serif}
+td, th {border:  1px solid;
+      padding: 10px;
+      min-width: 200px;
+      background: white;
+      box-sizing: border-box;
+      text-align: left;
+}
+.table-container {
+  position: relative;
+  max-height:  300px;
+  width: 500px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: hsl(39, 95%, 61%);
+}
+
+thead th:first-child {
+  left: 0;
+  z-index: 3;
+}
+ 
  
